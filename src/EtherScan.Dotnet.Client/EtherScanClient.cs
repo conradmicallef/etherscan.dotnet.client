@@ -370,7 +370,7 @@ public class EtherScanClient : IEtherScanClient
                 Result = new List<ChainInfoResponse>() 
             };
         }
-        catch (Exception ex)
+        catch (Exception )
         {
             return new ChainListResponse
             {

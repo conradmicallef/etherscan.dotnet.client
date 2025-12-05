@@ -2,7 +2,7 @@ namespace EtherScan.Dotnet.Client.Models.Contract.Response;
 
 public class ContractSourceCodeResponse
 {
-    [JsonPropertyName("SourceCode")] public string SourceCode { get; set; }
+    [JsonPropertyName("SourceCode")] public string? SourceCode { get; set; }
 
     [JsonPropertyName("ABI")]
     public string Abi { get; set; } = string.Empty;
